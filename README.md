@@ -14,7 +14,7 @@ ln -s <clone-path>/command-pr-summary/pr-summary.md ~/.claude/commands/pr-summar
 
 ## Usage
 
-```
+```text
 /pr-summary           # Compare to main/dev (auto-detected)
 /pr-summary main      # Compare to main
 /pr-summary dev       # Compare to dev

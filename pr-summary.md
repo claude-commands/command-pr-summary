@@ -12,12 +12,14 @@ Generate a PR description comparing current branch to the default base (main or 
 **Usage:** `/pr-summary [base-branch]`
 
 **Examples:**
+
 - `/pr-summary` - Compare to main/dev (auto-detected)
 - `/pr-summary main` - Compare to main
 - `/pr-summary dev` - Compare to dev
 - `/pr-summary release/v2` - Compare to release branch
 
 **Workflow:**
+
 1. Analyze all commits in current branch
 2. Review file changes and diff
 3. Identify breaking changes and impacts
@@ -40,6 +42,7 @@ Generate a comprehensive PR description comparing the current branch to the spec
 ## Steps
 
 1. **Gather Branch Information**
+
    ```bash
    # Current branch
    git branch --show-current
@@ -102,6 +105,7 @@ Generate a comprehensive PR description comparing the current branch to the spec
 6. **Generate PR Description**
 
    Format:
+
    ```markdown
    ## Summary
 
