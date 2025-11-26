@@ -1,7 +1,7 @@
 ---
 argument-hint: "[base-branch]"
 description: "Generate PR description from branch changes"
-model: claude-sonnet-4-20250514
+model: claude-opus-4-5-20251101
 allowed-tools: ["Bash", "Read", "Glob", "Grep"]
 ---
 
